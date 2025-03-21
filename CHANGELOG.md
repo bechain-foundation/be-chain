@@ -1,6 +1,11 @@
 # Changelog
 
 ## Unreleased
+### Breaking Changes
+### Additions and Improvements
+### Bug fixes
+
+## 25.3.0 
 
 ### Breaking Changes
 NOTE: This release breaks native Windows compatibility for mainnet ethereum configurations.  As the prague(pectra) hardfork require 
@@ -50,8 +55,6 @@ have support in besu-native can run mainnet ethereum configurations.  Windows su
 - Support pending transaction score when saving and restoring txpool [#8363](https://github.com/hyperledger/besu/pull/8363)
 - Upgrade to execution-spec-tests v4.1.0 including better EIP-2537 coverage for BLS [#8402](https://github.com/hyperledger/besu/pull/8402)
 - Add era1 format to blocks import subcommand [#7935](https://github.com/hyperledger/besu/issues/7935)
-- Replace tuweni libs with https://github.com/Consensys/tuweni
-- Performance: Consensys/tuweni 2.6.0 reduces boxing/unboxing overhead on some EVM opcodes, like PushX and Caller
 - Add Hoodi as new named testnet [#8428](https://github.com/hyperledger/besu/issues/8428)
 
 ### Bug fixes
